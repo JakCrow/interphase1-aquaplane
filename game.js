@@ -144,7 +144,7 @@ Aquaplane.Game.prototype = {
         this.physics.p2.enable(this.skier, false);
 
         this.skier.body.mass = 0.05;
-        this.skier.body.damping = 0.5;
+        this.skier.body.damping = 0.9;
         this.skier.body.fixedRotation = true;
         this.skier.body.collideWorldBounds = false;
 
