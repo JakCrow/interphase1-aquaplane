@@ -134,7 +134,7 @@ Aquaplane.Game.prototype = {
 
         this.physics.p2.enable(this.boat, false);
 
-        this.boat.body.mass = 100;
+        this.boat.body.mass = 1;
         this.boat.body.damping = 0.5;
         this.boat.body.fixedRotation = true;
         this.boat.body.collideWorldBounds = false;
